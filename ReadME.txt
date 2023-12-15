@@ -1,7 +1,7 @@
 Obsługa programu:
-	- przycisk 's' odpowiada za zapis stanu "Game_Of_Life".
+	- przycisk 's' odpowiada za zapis stanu 'Game_Of_Life'.
 	- przycisk 'l' odpowiada za wczytanie stanu "Game_Of_Life".
-	- przycisk 'space' odpowiada za pause / resume "Game_Of_Life".
+	- przycisk 'space' odpowiada za pause / resume 'Game_Of_Life'.
 
 Krótki opis zmian:
 	- Modularyzacja kodu podzielona na oddzielne moduły, co ułatwi zarządzanie i rozwój kodu w przyszłości.
@@ -17,4 +17,4 @@ Użyte wzorce projektowe:
 	- State: Kod posiada dwa stany: uruchomienia i pauzy. Stan gry jest kontrolowany przez to, czy aplikacja jest uruchomiona lub zatrzymana.
 	- Strategy: Logika gry w życie w module 'game_of_life.py' jest oparta na konkretnej strategii, która polega na obliczaniu kolejnego stanu komórek na podstawie zasad gry.
 	- Builder: Możliwość skonfigurowania gry z różnymi parametrami.
-	- MVC: rozdzielenie programu na pliki 'game_of_life.py' i 'ui.py' ułatiwa zarządzanie w logice programu.
+	- MVC: rozdzielenie programu na pliki 'game_of_life.py' i 'ui.py' ułatwia zarządzanie w logice programu.
